@@ -4,3 +4,9 @@ war {
   from 'Web'
   baseName='mrp'
 }
+
+dependencies {
+
+    compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
+
+}
