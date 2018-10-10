@@ -16,13 +16,5 @@ dependencies {
 
 
 
-task exportWidget(type: JavaExec) {
-
-	classpath sourceSets.test.runtimeClasspath
-
-	main = "org.stagemonitor.web.servlet.filter.HttpRequestMonitorFilterTest"
-
-}
-
 
 
