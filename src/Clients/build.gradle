@@ -9,7 +9,9 @@ war {
 dependencies {
 
         compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
-
+        compile "org.stagemonitor:stagemonitor-configuration:0.88.8"
+	compile "org.stagemonitor:stagemonitor-tracing-elasticsearch:0.88.8"
+	compile "org.stagemonitor:stagemonitor-tracing:0.88.8"
 
 	compile project(":stagemonitor-tracing")
 
