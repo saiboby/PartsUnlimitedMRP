@@ -1,13 +1,4 @@
-group 'com.techprimers'
-version '1.0-SNAPSHOT'
-
 apply plugin: 'java'
-
-sourceCompatibility = 1.8 
-
-repositories {
-	mavenCentral
-}
 
 apply plugin: 'war'
 
@@ -16,10 +7,18 @@ war {
   baseName='mrp'
 }
 
-dependencies {
+repositories {
+    mavenCentral()
+}
 
-        compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
-        compile "org.stagemonitor:stagemonitor-configuration:0.88.8"
+dependencies {
+    compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
+	compile "org.stagemonitor:stagemonitor-configuration:0.88.8"
 	compile "org.stagemonitor:stagemonitor-tracing-elasticsearch:0.88.8"
 	compile "org.stagemonitor:stagemonitor-tracing:0.88.8"
+}
+
+task copyLibs(type: Copy, dependsOn: clean) {
+    into "build"
+    from configurations.compile
 }
