@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smpl.ordering.repositories.mock.test.MockDealersRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-10-14T09:45:37" hostname="localhost.localdomain" time="0.002">
+  <properties/>
+  <testcase name="testUpsertDealer" classname="smpl.ordering.repositories.mock.test.MockDealersRepositoryTest" time="0.0"/>
+  <testcase name="testRemoveDealer" classname="smpl.ordering.repositories.mock.test.MockDealersRepositoryTest" time="0.0"/>
+  <testcase name="testGetDealer" classname="smpl.ordering.repositories.mock.test.MockDealersRepositoryTest" time="0.0"/>
+  <testcase name="testGetDealers" classname="smpl.ordering.repositories.mock.test.MockDealersRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[09:45:37.077 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+09:45:37.078 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+09:45:37.078 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+09:45:37.079 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
