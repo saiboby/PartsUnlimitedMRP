@@ -41,6 +41,13 @@ dependencies {
     compile("org.mongodb:mongo-java-driver:2.12.3")
     compile("org.hibernate:hibernate-core:4.2.0.Final")
     compile("org.apache.httpcomponents:httpclient:4.3.5")
+    compile "org.stagemonitor:stagemonitor-jdbc:0.88.8"
+    compile "org.stagemonitor:stagemonitor-jvm:0.88.8"
+    compile "org.stagemonitor:stagemonitor-os:0.88.8"
+    compile "org.stagemonitor:stagemonitor-configuration:0.88.8"
+    compile "org.stagemonitor:stagemonitor-tracing-elasticsearch:0.88.8"
+    compile "org.stagemonitor:stagemonitor-tracing:0.88.8"
+
     testCompile("junit:junit")
 	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.+'
 }
@@ -75,3 +82,13 @@ task integrationTest(type: Test, dependsOn: jar) {
         includeCategories 'smpl.ordering.repositories.mongodb.test.IntegrationTests'
     }
 }
+
+
+task copyLibs(type: Copy, dependsOn: clean) {
+
+    into "build"
+
+    from configurations.compile
+
+}
+
