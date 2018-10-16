@@ -1,3 +1,4 @@
+
 apply plugin: 'java'
 
 apply plugin: 'war'
@@ -5,7 +6,10 @@ apply plugin: 'war'
 war {
   from 'Web'
   baseName='mrp'
-}
+  from(/PartsUnlimitedMRP/src/Clients) {
+  include 'stagemonitor.properties'
+     }
+  }
 
 repositories {
     mavenCentral()
