@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-10-14T09:45:37" hostname="localhost.localdomain" time="0.035">
+<testsuite name="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-10-17T00:19:47" hostname="ip-172-31-88-123.ec2.internal" time="0.013">
   <properties/>
   <testcase name="testRemoveCatalogItem" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.0"/>
-  <testcase name="testGetCatalogItems" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.032"/>
+  <testcase name="testGetCatalogItems" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.0"/>
   <testcase name="testGetCatalogItem" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.0"/>
-  <testcase name="testUpsertCatalogItem" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.0"/>
-  <system-out><![CDATA[09:45:37.038 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:37.039 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:37.072 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:37.073 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+  <testcase name="testUpsertCatalogItem" classname="smpl.ordering.repositories.mock.test.MockCatalogItemsRepositoryTest" time="0.013"/>
+  <system-out><![CDATA[00:19:47.180 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.180 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.180 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.193 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="smpl.ordering.controllers.CatalogControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-10-14T09:45:36" hostname="localhost.localdomain" time="0.074">
+<testsuite name="smpl.ordering.controllers.CatalogControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-10-17T00:19:47" hostname="ip-172-31-88-123.ec2.internal" time="0.01">
   <properties/>
-  <testcase name="testAddCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.059"/>
-  <testcase name="testRemoveCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.001"/>
-  <testcase name="testGetCatalogItems" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.011"/>
-  <testcase name="testGetCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.001"/>
-  <testcase name="testUpsertCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.001"/>
-  <system-out><![CDATA[09:45:36.094 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:36.154 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:36.155 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:36.166 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
-09:45:36.167 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+  <testcase name="testAddCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.009"/>
+  <testcase name="testRemoveCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.0"/>
+  <testcase name="testGetCatalogItems" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.0"/>
+  <testcase name="testGetCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.0"/>
+  <testcase name="testUpsertCatalogItem" classname="smpl.ordering.controllers.CatalogControllerTest" time="0.0"/>
+  <system-out><![CDATA[00:19:47.105 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+00:19:47.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
