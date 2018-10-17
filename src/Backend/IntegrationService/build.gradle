@@ -27,6 +27,8 @@ dependencies {
     compile("org.springframework:spring-context")
     compile("com.fasterxml.jackson.core:jackson-databind")
     compile("com.microsoft.azure:azure-storage:2.0.0")
+    compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
+	compile "org.stagemonitor:stagemonitor-alerting:0.88.8"
  compile "org.stagemonitor:stagemonitor-jdbc:0.88.8"
  compile "org.stagemonitor:stagemonitor-jvm:0.88.8"
  compile "org.stagemonitor:stagemonitor-os:0.88.8"
