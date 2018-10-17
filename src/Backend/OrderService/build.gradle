@@ -42,6 +42,8 @@ dependencies {
     compile("org.hibernate:hibernate-core:4.2.0.Final")
     compile("org.apache.httpcomponents:httpclient:4.3.5")
     compile "org.stagemonitor:stagemonitor-jdbc:0.88.8"
+    compile "org.stagemonitor:stagemonitor-web-servlet:0.88.8"
+    compile "org.stagemonitor:stagemonitor-alerting:0.88.8"
     compile "org.stagemonitor:stagemonitor-jvm:0.88.8"
     compile "org.stagemonitor:stagemonitor-os:0.88.8"
     compile "org.stagemonitor:stagemonitor-configuration:0.88.8"
