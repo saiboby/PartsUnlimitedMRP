@@ -5,7 +5,7 @@ apply plugin: 'war'
 
 war {
   from 'Web'
-  baseName='mrp'
+  baseName='mrpparts'
   from('./stagemonitor.properties') {
   include 'stagemonitor.properties'
   into 'WEB-INF/classes'
